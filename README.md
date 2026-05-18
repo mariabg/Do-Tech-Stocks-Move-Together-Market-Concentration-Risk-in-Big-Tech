@@ -1,2 +1,2 @@
 # Do-Tech-Stocks-Move-Together-Market-Concentration-Risk-in-Big-Tech
-Analyzed diversification limits across AAPL, MSFT, NVDA, and AMZN using 11 years of daily return data. Found correlations of 0.52–0.67 across all stock pairs and tested ARIMA and XGBoost forecasting models against a naive baseline — none added meaningful predictive edge, consistent with market efficiency.
+Analyzed 10 years of daily adjusted closing prices for AAPL, MSFT, NVDA, and AMZN. Built ARIMA, SARIMA, and XGBoost models to forecast equity returns. Applied log return transformation, ADF stationarity testing, and exploratory data analysis to understand co-movement and volatility patterns across major tech stocks.
